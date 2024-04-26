@@ -27,13 +27,7 @@ Navigate to your project directory and build the project:
 cargo build
 ```
 
-3. **Set up Local Stellar and Soroban Environments**
 
-Using Docker, pull and run the Stellar quickstart image:
-
-```bash
-docker run --rm -it -p "8000:8000" -v "/path/to/your/data:/opt/stellar" --name stellar stellar/quickstart --testnet
-```
 
 In another terminal, initialize the Soroban local environment:
 
